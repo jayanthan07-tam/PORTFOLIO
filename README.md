@@ -1,16 +1,64 @@
-# React + Vite
+# Jayanthan P. — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive, dark-themed developer portfolio website built for **Jayanthan P.** (2nd Year B.Tech Computer Science and Business Systems Student at VSB Engineering College, Karur).
 
-Currently, two official plugins are available:
+![Portfolio Preview](public/favicon.svg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **GitHub Pages Site**: [https://jayanthan07-tam.github.io/jayanthanPortfolio/](https://jayanthan07-tam.github.io/jayanthanPortfolio/)
+- **GitHub Repository**: [https://github.com/jayanthan07-tam/jayanthanPortfolio](https://github.com/jayanthan07-tam/jayanthanPortfolio)
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tech Stack
+
+- **Framework**: React 19 + Vite 8
+- **Styling**: Tailwind CSS v4
+- **Icons**: Lucide React + Custom SVG Vectors
+- **Deployment**: GitHub Pages (`gh-pages`)
+
+---
+
+## 📑 Portfolio Highlights & Sections
+
+- **Sticky Glassmorphism Navbar**: Active section observer, mobile drawer menu, and direct Resume PDF download.
+- **Hero Section**: Interactive typing headline cycling through core roles, status badge, social profile links, and CTAs.
+- **About Me**: Honest 2nd-year CSBS student summary, academic standing (CGPA 6.55), and internship objective.
+- **Education**: Interactive timeline showcasing VSB Engineering College & CSBS program details.
+- **Skills Grid**: Categorized cards for Programming Languages, Web Tech, Databases, Frameworks, and Soft Skills.
+- **Projects Showcase**: Filterable showcase for *Ultron AI Assistant*, *E-Commerce Web Platform*, *Online Voting System*, *CRUD Student Management System*, *Library Management System*, and research projects.
+- **Certifications & Events**: Verified Python Foundation Certification and hackathon/workshop event cards.
+- **Contact & Footer**: Direct email/phone copy buttons, interactive mailto form handler, copyright, and scroll-to-top button.
+
+---
+
+## 💻 Local Development Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/jayanthan07-tam/jayanthanPortfolio.git
+   cd jayanthanPortfolio
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start local dev server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**:
+   ```bash
+   npm run build
+   ```
+
+5. **Deploy to GitHub Pages**:
+   ```bash
+   npm run deploy
+   ```
