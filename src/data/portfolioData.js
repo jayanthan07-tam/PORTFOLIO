@@ -11,7 +11,7 @@ export const personalInfo = {
   email: "jayanthanparamjyothy07@gmail.com",
   github: "https://github.com/jayanthan07-tam",
   linkedin: "https://www.linkedin.com/in/jayanthan-p-5795aa385",
-  resumePath: "/resume.pdf",
+  resumePath: `${import.meta.env.BASE_URL}resume.pdf`,
   bio: `I am a detail-oriented 2nd-year B.Tech Computer Science and Business Systems (CSBS) student at VSB Engineering College, Karur. I possess a strong foundation in Python, Java, and full-stack web development. I have hands-on experience designing interactive web applications, voice-activated AI assistants, desktop GUI programs, and database-backed CRUD systems. I enjoy solving complex problems, building real-world software, and exploring emerging tech.`
 };
 
